@@ -15,7 +15,7 @@ This mechanism not only improves the clarity of the final output but also paves 
 
 ## Repository Contents
 
-- **Google Colab Notebook**: An interactive version of the project that demonstrates the entire workflow in a step-by-step manner.
+- [**Google Colab Notebook**](https://github.com/colesmcintosh/chain-of-though-reranking/blob/main/chain_of_thought_reranking.ipynb): An interactive version of the project that demonstrates the entire workflow in a step-by-step manner.
 - **README.md**: This documentation file.
 
 ## Prerequisites
