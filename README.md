@@ -15,19 +15,52 @@ This mechanism not only improves the clarity of the final output but also paves 
 
 ## Repository Contents
 
-- [**Google Colab Notebook**](https://github.com/colesmcintosh/chain-of-though-reranking/blob/main/chain_of_thought_reranking.ipynb): An interactive version of the project that demonstrates the entire workflow in a step-by-step manner.
+- [**Google Colab Notebook**](https://github.com/colesmcintosh/chain-of-thought-reranking/blob/main/chain_of_thought_reranking.ipynb): An interactive version of the project that demonstrates the entire workflow in a step-by-step manner.
 - **README.md**: This documentation file.
 
 ## Prerequisites
 
+- Python 3.7 or higher
 - API keys for:
   - **Cohere API** (for generating and reranking responses)
   - **Together API** (for interacting with LLM models)
+
+## Project Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/colesmcintosh/chain-of-thought-reranking.git
+   cd chain-of-thought-reranking
+   ```
+
+2. **Create a virtual environment (recommended):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up environment variables:**
+   Create a `.env` file in the project root and add your API keys:
+   ```bash
+   COHERE_API_KEY=your_cohere_api_key_here
+   TOGETHER_API_KEY=your_together_api_key_here
+   ```
 
 ## Usage
 
 ### 1. Set Up API Keys
 Ensure you have your Cohere and Together API keys ready. In the provided notebook, you will be prompted to enter these keys or they can be loaded from your environment.
+
+### 2. Install Dependencies
+Run the following command to install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. Run the Full Workflow
 Execute the notebook cells sequentially to:

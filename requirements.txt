@@ -1,0 +1,2 @@
+together>=1.4.0
+cohere>=5.13.12
